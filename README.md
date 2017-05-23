@@ -8,6 +8,7 @@ LASI is a start page for web browsers. While I'm mostly just making this for per
 
 ## Planned features
 * Last.fm summary graph option (I'm a music and data nerd)
+* Last.fm "current obsession" with button to jump straight to the new obsession page
 * Make boxes move more dynamically for the current window/screen size (ie change from arranged left-right to up-down on phones, etc.)
 * Eventual settings that can be saved per-user, since right now it's just a static page
 * Potentially also eventually packaged into a Chrome extention to make a more seamless new-tab page
