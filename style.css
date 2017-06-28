@@ -1,27 +1,33 @@
 /* remember to change the fonts used to the actual ones from your tilda setup */
- @font-face {
-    font-family:'fira';
+
+@font-face {
+    font-family: 'fira';
     src: url('FiraCode-Retina.ttf') format('ttf'), local('FiraCode-Retina');
     font-style: normal;
     font-weight: normal;
 }
+
 @font-face {
-    font-family:'fira';
+    font-family: 'fira';
     src: url('FiraCode-Light.ttf') format('ttf'), local('FiraCode-Light');
     font-style: normal;
     font-weight: lighter;
 }
-html, body {
+
+html,
+body {
     margin: 0;
     padding: 0;
     background-color: #212121;
     color: #FFFFFF;
     font-size: 14px;
 }
+
 * {
-    font-family:'fira';
+    font-family: 'fira';
     font-weight: lighter;
 }
+
 #title {
     position: absolute;
     text-align: center;
@@ -32,8 +38,11 @@ html, body {
     margin-left: auto;
     margin-right: auto;
 }
+
+
 /* @media is an okay temporary solution for my purposes, but need to find a better solution for more responsive design */
- @media (min-width:720px) {
+
+@media (min-width:720px) {
     #container {
         position: absolute;
         padding: 0 20px 0 20px;
@@ -46,6 +55,7 @@ html, body {
         height: auto;
     }
 }
+
 @media (max-width:720px) {
     #container {
         position: absolute;
@@ -58,6 +68,7 @@ html, body {
         height: auto;
     }
 }
+
 #header {
     -webkit-box-shadow: 1px 1px 20px 0px #000;
     -moz-box-shadow: 1px 1px 20px 0px #000;
@@ -67,11 +78,13 @@ html, body {
     padding: 8px;
     border: 5px solid #404040;
 }
+
 #links {
     display: -moz-box;
     display: -webkit-box;
     width: 100%;
 }
+
 .linksbox {
     -webkit-box-shadow: 1px 1px 20px 0px #000;
     -moz-box-shadow: 1px 1px 20px 0px #000;
@@ -83,45 +96,55 @@ html, body {
     background-color: #404040;
     border: 5px solid #404040;
 }
+
 .linksbox h3 {
     padding-bottom: 5px;
 }
+
 .linksbox a {
     display: block;
     text-decoration: none;
     font-weight: bold;
 }
+
 .linksbox a.blue:hover {
     color: #60ABAB;
     text-decoration: none;
 }
+
 h3 {
     font-size: 14px;
     padding-bottom: 0;
     margin-bottom: 0;
     margin-top: 0;
 }
+
 .blue {
     color: #4A9595;
     padding: 0;
 }
+
 .green {
     font-weight: bold;
     padding: 0;
     color: #6B8F71;
 }
+
 .cyan {
     font-weight: bold;
     padding: 0;
     color: #92B19E;
 }
+
 .red {
     padding: 0;
     color: #DBA3A3;
 }
+
 form {
     display: inline;
 }
+
 input {
     display: inline;
     background: none;
@@ -131,11 +154,16 @@ input {
     width: 70%;
     font-size: 14px;
 }
+
 input:focus {
     color: #92B19E;
 }
+
+
 /* https://goo.gl/bwVwOJ
 why dahell has no one else done this in this start page design lol, the outline box is so annoying */
- textarea:focus, input:focus {
+
+textarea:focus,
+input:focus {
     outline: none;
 }
