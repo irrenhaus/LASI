@@ -21,6 +21,9 @@ body {
     background-color: #212121;
     color: #FFFFFF;
     font-size: 14px;
+    background-image: url("bg_earth-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 * {
